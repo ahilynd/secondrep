@@ -12,6 +12,7 @@ const [input, setInput] = useState('');
             name='text'
              className='todo-input'
           />
+          <button className="todo-button">Add todo</button>
       </form>
     );
 }
